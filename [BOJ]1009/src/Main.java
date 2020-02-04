@@ -12,9 +12,10 @@ public class Main {
 		}
 		sc.close();
 		for(int i = 0; i < N; i++) {
-			for(int k = 1; i <= arr[i][1]; k++) {
-				result = arr[i][0];
-				result = (result * k) % 10; 
+			result = arr[i][0];
+			System.out.println("arri"+ arr[i][1]);
+			for(int k = 1; k <= arr[i][1]; k++) {
+				result = (arr[i][0] * arr[i][0]) % 10; 
 			}
 
 			System.out.println(result);
